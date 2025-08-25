@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/rl_title_with_back"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_List"
+        android:background="@drawable/dialog_corner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minHeight="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sl_level"/>
+</LinearLayout>

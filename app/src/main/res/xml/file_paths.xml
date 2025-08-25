@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <external-path
+            name="download"
+            path=""/>
+        <external-path
+            name="files_root"
+            path="Android/data/com.hicorenational.antifraud/"/>
+        <external-path
+            name="external_storage_root"
+            path="."/>
+        <cache-path
+            name="downloads"
+            path="downloads"/>
+        <external-path
+            name="beta_external_path"
+            path="Download/"/>
+        <external-path
+            name="beta_external_files_path"
+            path="Android/data/"/>
+        <external-files-path
+            name="umeng_cache"
+            path="umeng_cache"/>
+        <root-path
+            name="opensdk_root"
+            path=""/>
+        <external-files-path
+            name="opensdk_external"
+            path="Images/tmp"/>
+        <external-files-path
+            name="share_files"
+            path="."/>
+    </paths>
+</resources>

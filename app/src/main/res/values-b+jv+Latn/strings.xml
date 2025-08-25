@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CS_ERR_for_cannot_conn_service">Ora bisa nyambung server. Coba maneh mengko.</string>
+    <string name="CS_area_not_support_service">Layanan iki ora sumadhiya ing wilayah sampeyan saiki.</string>
+    <string name="CS_back">Mbalik</string>
+    <string name="CS_bind_devices_excess">Akun iki bisa digayutake karo maksimum 5 piranti. Bukaken %s banjur pedhot tautan paling ora sak piranti sadurunge nerusake.</string>
+    <string name="CS_email_already_verified">Alamat email iki wis diverifikasi.</string>
+    <string name="CS_install">Instal</string>
+    <string name="CS_logout_apps">Apl ing ngisor iki bakal metu saka akun iki:</string>
+    <string name="CS_network_connect_error">Ora ana sambungan internet. Priksa setelan jaringan.</string>
+    <string name="CS_next">Sabanjure</string>
+    <string name="CS_no_network_content">Server jaringan ora sumadhiya. Priksa sambungan jaringan.</string>
+    <string name="CS_overload_message">Kakehan nggawe panjalukan mutakhir. Coba mengko.</string>
+    <string name="CS_retry">Coba maneh</string>
+    <string name="CS_system_error_tip">Sistem error. Login maneh.</string>
+    <string name="CS_title_tips">Cathetan</string>
+    <string name="account_cancel">Wurung</string>
+    <string name="account_logout">Metu</string>
+    <string name="account_manager">Kelola akun</string>
+    <string name="cs_cancel">Wurung</string>
+    <string name="cs_check_honorapk_failure">Ora bisa mriksa panganyaran.</string>
+    <string name="cs_checking">Mriksa panganyaran...</string>
+    <string name="cs_confirm">OK</string>
+    <string name="cs_download_honorapk_failure">Paket instalasi ID HONOR ora bisa diundhuh.</string>
+    <string name="cs_download_no_space">Spasi bebas ora cukup. Undhuhan ora bisa rampung.</string>
+    <string name="cs_download_retry">Undhuh gagal. Coba maneh?</string>
+    <string name="cs_downloading_honor_new">Nganyarake ID HONOR…</string>
+    <string name="cs_update_honor_title">ID HONOR</string>
+    <string name="cs_update_message_new">Layanan iki mbutuhake versi paling anyar apl ing ngisor iki.\n\n%1$s</string>
+    <string name="hms_apk_not_installed_hints">Sawetara fitur ing %1$s bisa uga ora mlaku kanthi bener tanpa HMS Core, sing durung diinstal ing piranti.</string>
+    <string name="hms_bindfaildlg_message">%1$s ora bisa nggunakake HMS Core. Luncurake Pangoptimal (Atur Ponsel) utawa bukak Setelan kanggo ngaktifake kabeh izin kanggo %2$s (kalebu luncurake otomatis lan paluncuran kaloro), banjur coba maneh.</string>
+    <string name="hms_confirm">OK</string>
+    <string name="hms_is_spoof">Kayane HMS Core (%1$s) sing diinstal ing piranti sampeyan kuwi versi bajakan. Busak instalan HMS Core saka Setelan banjur mbalika menyang apl iki kanggo nginstal versi sing resmi.</string>
+    <string name="hms_push_channel">Gawan</string>
+    <string name="hms_spoof_hints">Cathetan</string>
+</resources>

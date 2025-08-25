@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_ocr"
+    android:background="#fff9f8"
+    android:paddingLeft="@dimen/dp_15"
+    android:paddingTop="@dimen/dp_8"
+    android:paddingRight="@dimen/dp_15"
+    android:paddingBottom="@dimen/dp_8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textSize="@dimen/sp_14"
+        android:gravity="center"
+        android:id="@+id/tv_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照IMEI可直接识别"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/sp_14"
+        android:textColor="#ef2626"
+        android:gravity="center"
+        android:id="@+id/tv_ocr"
+        android:background="@drawable/shape_red_2"
+        android:paddingLeft="@dimen/dp_10"
+        android:paddingTop="@dimen/dp_8"
+        android:paddingRight="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照识别"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CS_ERR_for_cannot_conn_service">Tē taea te tūhono ki te tūmau. Mahia anō ā muri ake.</string>
+    <string name="CS_area_not_support_service">He wāteakore tēnei ratonga i tēnei wā tonu i tō rohe.</string>
+    <string name="CS_back">Hoki</string>
+    <string name="CS_bind_devices_excess">Ka taea tēnei pūkete te hono ki ngā pūrere e 5 te mōrahi. Me haere ki %s ka wete mai i tētahi pūrere i mua i te haere tonu.</string>
+    <string name="CS_email_already_verified">Kua manatoko kētia te wāhitau īmēra.</string>
+    <string name="CS_install">Tāuta</string>
+    <string name="CS_logout_apps">Ka takiputaina koe i tō pūkete i roto i ēnei taupānga:</string>
+    <string name="CS_network_connect_error">Kāore he tūhononga Ipurangi. Tirohia tō tautuhinga whatunga.</string>
+    <string name="CS_next">Panuku</string>
+    <string name="CS_no_network_content">Kei te wāteakore te tūmau whatunga. Tirohia tō tūhononga whatunga.</string>
+    <string name="CS_overload_message">He nui rawa ngā tono o nā tata nei kua mahia. Mahia ā muri ake.</string>
+    <string name="CS_retry">Mahia anō</string>
+    <string name="CS_system_error_tip">Hapa pūnaha. Takiuru anō.</string>
+    <string name="CS_title_tips">Kia mōhio</string>
+    <string name="account_cancel">Whakakore</string>
+    <string name="account_logout">Takiputa</string>
+    <string name="account_manager">Whakahaere pūkete</string>
+    <string name="cs_cancel">Whakakore</string>
+    <string name="cs_check_honorapk_failure">Tē taea te tirotiro mō ngā whakahōu.</string>
+    <string name="cs_checking">Tirotiro whakahōu ana...</string>
+    <string name="cs_confirm">ĀE</string>
+    <string name="cs_download_honorapk_failure">Kāore i taea te tikiake te mōkī tāutanga HONOR ID.</string>
+    <string name="cs_download_no_space">He iti rawa te mokowā wātea. Tē taea te tikiake te whakaoti.</string>
+    <string name="cs_download_retry">I rahua te tikiake. Ngana anō?</string>
+    <string name="cs_downloading_honor_new">Whakahōu ana i te HONOR ID...</string>
+    <string name="cs_update_honor_title">HONOR ID</string>
+    <string name="cs_update_message_new">Me whai tēnei ratonga i te putanga hōu rawa o te taupānga e whai ake:\n\n%1$s</string>
+    <string name="hms_apk_not_installed_hints">Kāore pea e mahi tika ētahi āhuahira i %1$s ki te kore te HMS Core, ā, kāore i te tāuta ki tō pūrere.</string>
+    <string name="hms_bindfaildlg_message">Kāore e taea e %1$s te whakamahi HMS Core. Whakarewatia te Pūarotau (Pūwhakahaere Waea), haere rānei ki Ngā Tautuhinga, whakahohea ngā taupānga katoa mō %2$s (tae atu ki whakarewa-aunoa me te whakarewa tuarua), ka ngana anō.</string>
+    <string name="hms_confirm">ĀE</string>
+    <string name="hms_is_spoof">Te āhua nei kua putanga manakore tāu o HMS Core (%1$s) kua tāutahia ki tō pūrere. Me tangotāuta i te HMS Core mai i Ngā tautuhinga ka hoki ki tēnei taupānga hei tāuta i te putanga whaimana.</string>
+    <string name="hms_push_channel">Taunoa</string>
+    <string name="hms_spoof_hints">Kia mōhio</string>
+</resources>

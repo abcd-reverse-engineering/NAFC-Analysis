@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/transparent"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:enabled="false"
+        android:textSize="@dimen/sp_15"
+        android:gravity="center_vertical"
+        android:id="@+id/tv_versf"
+        android:paddingLeft="10dp"
+        android:paddingTop="5dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取验证码"
+        android:lines="1"
+        android:singleLine="true"
+        android:imeOptions="actionNext"/>
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/rl_title_with_back"/>
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/ll_select"
+                android:background="@drawable/bg_white_crop"
+                android:padding="@dimen/dp_15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="20dp">
+                <ImageView
+                    android:layout_width="@dimen/dp_20"
+                    android:layout_height="@dimen/dp_20"
+                    android:src="@mipmap/ic_add_info"/>
+                <TextView
+                    android:textSize="@dimen/sp_15"
+                    android:textColor="@color/black_dark"
+                    android:gravity="center"
+                    android:id="@+id/tv_select_tip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5"
+                    android:text="选择通讯录"/>
+            </LinearLayout>
+            <include layout="@layout/layout_complete"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

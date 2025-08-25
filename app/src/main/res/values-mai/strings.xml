@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CS_ERR_for_cannot_conn_service">सर्वर स संपर्क कर मे असमर्थ। बाद में पुन: प्रयास करु।</string>
+    <string name="CS_area_not_support_service">सेवा अपनेक क्षेत्र मे उपलब्ध नहि अछि।</string>
+    <string name="CS_back">वापस</string>
+    <string name="CS_bind_devices_excess">एहि खाता केँ अधिकतम 5टा डिवाइस सँ लिंक कयल जा सकैत अछि। जारी रखबा सँ पहिने %s पर जाउ आ कम सँ कम एकटा डिवाइस केँ अनलिंक करू।</string>
+    <string name="CS_email_already_verified">ईमेल पता पहिने स सत्यापित कयाल गेल।</string>
+    <string name="CS_install">स्थापित करू</string>
+    <string name="CS_logout_apps">अहां केँ निम्न एप सभ मे अपन खाता सँ लॉग आउट कयल जायत:</string>
+    <string name="CS_network_connect_error">कोनो इंटरनेट कनेक्शन नहि। अपन नेटवर्क सेटिंगक जांच करू।</string>
+    <string name="CS_next">अगला</string>
+    <string name="CS_no_network_content">नेटवर्क सर्वर अनुपलब्ध छै। अपन नेटवर्कक कनेक्शन के जाँच करु।</string>
+    <string name="CS_overload_message">हाले मे कै टा अनुरोध कयाल गेल। कृपाक बाद मे प्रयास करु।</string>
+    <string name="CS_retry">पुन: प्रयास करू</string>
+    <string name="CS_system_error_tip">सिस्टम मे गड़बड़ी। कृपाक फेर स लॉगइन करु।</string>
+    <string name="CS_title_tips">नोट</string>
+    <string name="account_cancel">रद्द करू</string>
+    <string name="account_logout">लोग आउट</string>
+    <string name="account_manager">खाताक प्रबंधन</string>
+    <string name="cs_cancel">रद्द करू</string>
+    <string name="cs_check_honorapk_failure">अपडेट सभक लेल जाँच करबा मे अक्षम।</string>
+    <string name="cs_checking">नवीनतमक लेल जाँच करैत अछि…</string>
+    <string name="cs_confirm">ठीक</string>
+    <string name="cs_download_honorapk_failure">HONOR ID इंस्टॉलेशन पैकेज डाउनलोड नहि कयल जा सकल।</string>
+    <string name="cs_download_no_space">पर्याप्त खाली जगह नहि। डाउनलोड पूरा नहि भय सकत।</string>
+    <string name="cs_download_retry">डाउनलोड असफल भय गेल। पुनः प्रयास करू?</string>
+    <string name="cs_downloading_honor_new">HONOR ID केँ अपडेट कए रहल अछि…</string>
+    <string name="cs_update_honor_title">HONOR ID</string>
+    <string name="cs_update_message_new">एहि सेवा केर निम्न एप केर नवीनतम संस्करण चाही:\n\n%1$s</string>
+    <string name="hms_apk_not_installed_hints">HMS Core केर बिना %1$s मे किछु फीचर नीक जेकां काज नहियो कए सकैत अछि, जे अहांक डिवाइस पर इंस्टॉल नहि कयल अछि।</string>
+    <string name="hms_bindfaildlg_message">HMS Core सभक उपयोग करबामे %1$s असफल भय गेल। ऑप्टिमाइजर (फोन प्रबंधक) शुरू करू वा सेटिंग्समे जाउ, %2$s क लेल सभटा अनुमति सक्षम करू (स्वतः प्रारंभ आ द्वितीयक प्रारंभ सहित), आ पुनः प्रयास करू।</string>
+    <string name="hms_confirm">ठीक</string>
+    <string name="hms_is_spoof">एहन लगैत अछि जे अहां डिवाइस पर HMS Coreक (%1$s) अनाधिकारिक वर्जन इंस्टॉल कयने छी। कृपाकए सेटिंग्स सँ HMS Core केँ अनइंस्टॉल करू आ आधिकारिक वर्जन केँ इंस्टॉल करबाक लेल एहि एप पर घुरि कए आउ।</string>
+    <string name="hms_push_channel">डिफ़ॉल्ट</string>
+    <string name="hms_spoof_hints">ध्यान दिअ</string>
+</resources>

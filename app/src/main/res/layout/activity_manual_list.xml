@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        app:layout_constraintTop_toTopOf="parent"
+        layout="@layout/rl_title_with_back"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_title"
+        layout="@layout/layout_no_data"/>
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_title">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:nestedScrollingEnabled="false"/>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

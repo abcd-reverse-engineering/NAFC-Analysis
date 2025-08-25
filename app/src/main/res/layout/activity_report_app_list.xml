@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/rl_title_with_back"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        layout="@layout/layout_add"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:nestedScrollingEnabled="false"/>
+            <TextView
+                android:textSize="@dimen/sp_12"
+                android:textColor="@color/red"
+                android:id="@+id/tv_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dp_15"
+                android:text="企业正常运营但被用于实施诈骗的境内外语音视频会议、即时通讯、社交网络等 APP 信息填写在“互联网账号”信息栏；为实施诈骗而专门开发的语音视频会议、即时通讯、社交网络等APP信息填写在“诈骗 APP”信息栏"
+                android:layout_marginStart="@dimen/dp_30"
+                android:layout_marginEnd="@dimen/dp_30"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

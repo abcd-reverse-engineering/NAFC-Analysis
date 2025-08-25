@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/rl_title_with_back"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
+                <include layout="@layout/layout_add"/>
+            </FrameLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:nestedScrollingEnabled="false"/>
+            <include layout="@layout/layout_complete"/>
+            <TextView
+                android:textSize="@dimen/sp_12"
+                android:textColor="#ff0000"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/tv_commit_tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginBottom="20dp"
+                android:text="请准确填写寄件号码，不是与被害人发生通话的手机号码，与被害人发生通话的手机号码填写在通话类"/>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/webview_activity_layout"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/fl_mask"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_65"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/fl_mask">
+        <ui.view.MyWebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ll_to_report"/>
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_2"
+            android:progressDrawable="@drawable/web_view_loading"
+            style="?android:attr/progressBarStyleHorizontal"/>
+        <FrameLayout
+            android:id="@+id/ll_progress"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <include
+                android:layout_gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="-50dp"
+                layout="@layout/progress_layout"/>
+        </FrameLayout>
+    </FrameLayout>
+    <include layout="@layout/rl_title_with_back"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/dp_65">
+        <include layout="@layout/layout_network_no"/>
+    </FrameLayout>
+</RelativeLayout>

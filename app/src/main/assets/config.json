@@ -1,0 +1,69 @@
+{
+  "version": "1.0.0",
+  "local": {
+    "content": "郑州频道",
+    "module": "https://www.zhengzhou.com"
+  },
+  "tool": [
+    {
+      "image": "safeImage1.png",
+      "content": "我要举报",
+      "module": "1011",
+      "isNeedVerified": "1"
+    },
+    {
+      "image": "safeImage2.png",
+      "content": "报案助手",
+      "module": "1012",
+      "isNeedVerified": "1"
+    },
+    {
+      "image": "safeImage3.png",
+      "content": "来电预警",
+      "module": "1013"
+    },
+    {
+      "image": "safeImage4.png",
+      "content": "身份核实",
+      "module": "1014"
+    },
+    {
+      "image": "safeImage4.png",
+      "content": "本地定制",
+      "module": "https://www.baidu.com",
+      "isNeedVerified": "0"
+    }
+  ],
+  "modles": {
+    "1011": "0",
+    "1012": "0",
+    "1013": "1",
+    "1014": "0",
+    "1015": "1",
+    "1016": "0",
+    "1018": "0"
+  },
+  "standard": [
+    "1017",
+    "1015"
+  ],
+  "localApi": "https://local-dev-k8s.fqzpt.com:9943/c-gw/",
+  "h5Url": "https://local-dev-k8s.fqzpt.com:9943/c-gw/",
+  "individuaApi": "https://local-dev-k8s.fqzpt.com:9943/c-gw/",
+  "myReport": "",
+  "assistantUser": "",
+  "assistantPolice": "",
+  "useLocalPolice": "1",
+  "idCheck": "",
+  "broadcast": "",
+  "riskCheck": "",
+  "feedback": "",
+  "reportRecord": "",
+  "IOSVerificationAgreement": "",
+  "ioshandbook": "",
+  "androidhandbook": "",
+  "iosh5host": "",
+  "androidh5host": "",
+  "stopPayment": "1",
+  "whiteTelList": []
+}

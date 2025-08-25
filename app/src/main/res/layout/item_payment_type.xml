@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="12sp"
+    android:textColor="@color/transparentColor"
+    android:gravity="center"
+    android:id="@+id/tv_txet"
+    android:background="@drawable/button_bg_gray_light_25"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/dp_3"
+    android:layout_marginTop="@dimen/dp_10"
+    android:minHeight="40dp"/>

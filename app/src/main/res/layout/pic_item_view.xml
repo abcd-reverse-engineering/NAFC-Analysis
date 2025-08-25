@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="3dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imageview"
+        android:layout_width="38dp"
+        android:layout_height="38dp"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#0861a9"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tvDot"
+        android:visibility="gone"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-8dp"
+        android:text="…"/>
+</FrameLayout>

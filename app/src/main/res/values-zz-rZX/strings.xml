@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CS_ERR_for_cannot_conn_service">[CS_284526]_Unable to connect to server. Please try again later.</string>
+    <string name="CS_area_not_support_service">[CS_112186]_This service is not available in your region right now.</string>
+    <string name="CS_back">[CS_112086]_Back</string>
+    <string name="CS_bind_devices_excess">[CS_111450]_This account can be linked to a maximum of 5 devices. Please go to %s and unlink at least one device before continuing.</string>
+    <string name="CS_email_already_verified">[CS_112405]_The email address has already been verified.</string>
+    <string name="CS_install">[CS_283459]_Install</string>
+    <string name="CS_logout_apps">[CS_111912]_You will be logged out of your account in the following apps:</string>
+    <string name="CS_network_connect_error">[CS_111768]_No Internet connection. Check your network settings.</string>
+    <string name="CS_next">[CS_112467]_Next</string>
+    <string name="CS_no_network_content">[CS_112049]_The network server is unavailable. Please check your network connection.</string>
+    <string name="CS_overload_message">[CS_112474]_Too many recent requests have been made. Please try later.</string>
+    <string name="CS_retry">[CS_111520]_Retry</string>
+    <string name="CS_system_error_tip">[CS_111623]_System error. Please log in again.</string>
+    <string name="CS_title_tips">[CS_112039]_Note</string>
+    <string name="account_cancel">[CS_295449]_Cancel</string>
+    <string name="account_logout">[CS_295446]_Log out</string>
+    <string name="account_manager">[CS_295453]_Manage account</string>
+    <string name="cs_cancel">[CS_351615]_Cancel</string>
+    <string name="cs_check_honorapk_failure">[CS_732663]_Unable to check for updates.</string>
+    <string name="cs_confirm">[CS_550119]_OK</string>
+    <string name="cs_download_honorapk_failure">[CS_732662]_HONOR ID installation package could not be downloaded.</string>
+    <string name="cs_download_no_space">[CS_351614]_Not enough free space. Download cannot be completed.</string>
+    <string name="cs_downloading_honor_new">[CS_732664]_Updating HONOR ID…</string>
+    <string name="cs_update_honor_title">[CS_732661]_HONOR ID</string>
+    <string name="cs_update_message_new">[CS_351613]_This service requires the latest version of the following app:\n\n%1$s</string>
+</resources>

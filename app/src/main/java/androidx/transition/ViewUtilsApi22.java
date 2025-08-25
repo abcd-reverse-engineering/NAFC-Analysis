@@ -1,0 +1,45 @@
+package androidx.transition;
+
+import android.annotation.SuppressLint;
+import android.view.View;
+import androidx.annotation.RequiresApi;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
+@RequiresApi(22)
+/* loaded from: classes.dex */
+class ViewUtilsApi22 extends ViewUtilsApi21 {
+    private static final String TAG = "ViewUtilsApi22";
+    private static Method sSetLeftTopRightBottomMethod;
+    private static boolean sSetLeftTopRightBottomMethodFetched;
+
+    ViewUtilsApi22() {
+    }
+
+    @SuppressLint({"PrivateApi"})
+    private void fetchSetLeftTopRightBottomMethod() {
+        if (sSetLeftTopRightBottomMethodFetched) {
+            return;
+        }
+        try {
+            sSetLeftTopRightBottomMethod = View.class.getDeclaredMethod("setLeftTopRightBottom", Integer.TYPE, Integer.TYPE, Integer.TYPE, Integer.TYPE);
+            sSetLeftTopRightBottomMethod.setAccessible(true);
+        } catch (NoSuchMethodException unused) {
+        }
+        sSetLeftTopRightBottomMethodFetched = true;
+    }
+
+    @Override // androidx.transition.ViewUtilsBase
+    public void setLeftTopRightBottom(View view, int i2, int i3, int i4, int i5) throws IllegalAccessException, IllegalArgumentException, InvocationTargetException {
+        fetchSetLeftTopRightBottomMethod();
+        Method method = sSetLeftTopRightBottomMethod;
+        if (method != null) {
+            try {
+                method.invoke(view, Integer.valueOf(i2), Integer.valueOf(i3), Integer.valueOf(i4), Integer.valueOf(i5));
+            } catch (IllegalAccessException unused) {
+            } catch (InvocationTargetException e2) {
+                throw new RuntimeException(e2.getCause());
+            }
+        }
+    }
+}

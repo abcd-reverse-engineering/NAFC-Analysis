@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/card_corner_white_bg"
+    android:paddingTop="@dimen/dp_5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp">
+    <ui.view.pagerecycle.PageRecyclerView
+        android:layout_gravity="bottom"
+        android:id="@+id/page_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"/>
+    <ui.view.pagerecycle.PageIndicatorView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/page_indicator"
+        android:background="@drawable/home_people_white_radius"
+        android:layout_width="25dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="7dp"/>
+</LinearLayout>

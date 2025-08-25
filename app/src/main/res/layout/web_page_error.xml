@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-50dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_network_no"/>
+        <TextView
+            android:textSize="@dimen/dp_14"
+            android:textColor="#888eae"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/net_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="网络不给力，请检查网络后重试"/>
+        <TextView
+            android:textColor="#888eae"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tv_refresh"
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="刷新"
+            android:drawableLeft="@drawable/iv_refresh"
+            android:drawablePadding="10dp"/>
+    </LinearLayout>
+</FrameLayout>

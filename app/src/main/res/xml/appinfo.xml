@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appInfos>
+    <appInfo>
+        <appID>com.tiantianmini.android.browser
+        </appID>
+        <reqClientType>3
+        </reqClientType>
+        <defaultChannel>2000000
+        </defaultChannel>
+    </appInfo>
+    <appInfo>
+        <appID>com.tiantianlady.android.browser
+        </appID>
+        <reqClientType>3
+        </reqClientType>
+        <defaultChannel>2000001
+        </defaultChannel>
+    </appInfo>
+    <appInfo>
+        <appID>com.vmall.client
+        </appID>
+        <reqClientType>26
+        </reqClientType>
+        <defaultChannel>26000005
+        </defaultChannel>
+    </appInfo>
+    <appInfo>
+        <appID>com.android.mediacenter
+        </appID>
+        <reqClientType>24
+        </reqClientType>
+        <defaultChannel>24000000
+        </defaultChannel>
+    </appInfo>
+</appInfos>

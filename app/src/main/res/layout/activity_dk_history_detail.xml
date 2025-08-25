@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/rl_title_with_back"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/expand_list"
+        android:background="@drawable/dialog_corner_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="@dimen/dp_20"/>
+</FrameLayout>

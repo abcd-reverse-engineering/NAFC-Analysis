@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_virus_time"
+    android:background="@drawable/shape_up_round_white"
+    android:padding="@dimen/dp_15"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:textSize="@dimen/sp_14"
+        android:textColor="@color/black_dark"
+        android:id="@+id/cancle"
+        android:padding="@dimen/dp_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_close_gray"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:textSize="@dimen/sp_16"
+        android:textColor="@color/black_dark"
+        android:padding="@dimen/dp_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请选择账户类型"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <com.zhy.view.flowlayout.TagFlowLayout
+        android:id="@+id/flow_layout"
+        android:background="@drawable/bg_white_crop"
+        android:paddingBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/qb_px_12"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginRight="@dimen/qb_px_12"
+        app:layout_constraintTop_toBottomOf="@+id/cancle"
+        app:max_select="1"
+        app:tag_gravity="center"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CS_ERR_for_cannot_conn_service">مۇلازىمىتېرغا ئۇلاش مۇمكىن بولمىدى، سەل تۇرۇپ قايتا سىناڭ.</string>
+    <string name="CS_area_not_support_service">سىز تۇرۇشلۇق رايوندا بۇ مۇلازىمەت تېخى ئېچىلمىدى.</string>
+    <string name="CS_back">ئالدىنقى</string>
+    <string name="CS_bind_devices_excess">بىر ھېساباتقا كۆپىدە 5 ئۈسكۈنە باغلىنىدۇ. %s دېگەن ھېساباتقا كىرىپ، كەمىدە بىر ئۈسكۈنىنى چىقىرىۋېتىڭ.</string>
+    <string name="CS_email_already_verified">بىخەتەرلىكل تورخەت ئادرېسى ئاكتىپلاشتۇرۇلدى</string>
+    <string name="CS_install">قاچىلاش</string>
+    <string name="CS_logout_apps">ھېساباتىڭىز تۆۋەندىكى ئەپلەردىن چېكىنىدۇ:</string>
+    <string name="CS_network_connect_error">تور ئۇلانمىدى، تور تەڭشىكىنى تەكشۈرۈڭ.</string>
+    <string name="CS_next">كېيىنكى</string>
+    <string name="CS_no_network_content">تور مۇلازىمىتېرىنى ئىشلەتكىلى بولمىدى، تور ئۇلىنىشىنى تەكشۈرۈڭ</string>
+    <string name="CS_overload_message">تەلەپ بەك كۆپ بولۇپ كەتتى، سەل تۇرۇپ قايتا سىناڭ</string>
+    <string name="CS_retry">قايتا سىناش</string>
+    <string name="CS_system_error_tip">سىستېمىدا خاتالىق كۆرۈلدى، قايتا كىرىڭ</string>
+    <string name="CS_title_tips">ئەسكەرتىش</string>
+    <string name="account_cancel">بىكار قىلىش</string>
+    <string name="account_logout">ھېسابات نومۇرىدىن چېكىنىش</string>
+    <string name="account_manager">ھېسابات نومۇرىنى باشقۇرۇش</string>
+    <string name="cs_cancel">بىكار قىلىش</string>
+    <string name="cs_check_honorapk_failure">يېڭىلانما تەكشۈرۈلمىدى.</string>
+    <string name="cs_checking">يېڭىلانما تەكشۈرۈۋاتىدۇ...</string>
+    <string name="cs_confirm">بىلدىم</string>
+    <string name="cs_download_honorapk_failure">روڭياۋ ھېسابى قاچىلاش بوغچىسى چۈشمىدى.</string>
+    <string name="cs_download_no_space">ئېشىپ قالغان بوشلۇق يېتەرسىز، چۈشۈرگىلى بولمايدۇ.</string>
+    <string name="cs_download_retry">چۈشمىدى، قايتا سىنامسىز؟</string>
+    <string name="cs_downloading_honor_new">روڭياۋ ھېسابى يېڭىلىنىۋاتىدۇ</string>
+    <string name="cs_update_honor_title">روڭياۋ ھېسابى</string>
+    <string name="cs_update_message_new">بۇ مۇلازىمەتنى تۆۋەندىكى ئەپلەرنىڭ ئەڭ يېڭى نۇسخىسىنى قاچىلىغاندىلا ئىشلەتكىلى بولىدۇ \n\n•%1$s</string>
+    <string name="hms_apk_not_installed_hints">ئۈسكۈنىدە HMS Core نىڭ يېڭى نەشرى يوق، %1$s نورمال ئىشلىمەيدۇ.</string>
+    <string name="hms_bindfaildlg_message">نۆۋەتتە %1$s مۇلازىمىتى HMS Core ئىشلىتەلمەيدۇ. باشقۇرغۇچ ياكى تەڭشەكتە %2$s ئۈچۈن بارلىق ئىجازەتنى ئېچىڭ («ئۆزلۈكىدىن قوزغىلىش» ۋە «باغلانما قوزغىتىش» مۇ شۇنىڭ ئىچىدە).</string>
+    <string name="hms_confirm">بىلدىم</string>
+    <string name="hms_is_spoof">بۇ ئۈسكۈنىگە قاچىلانغان (%1$s) رەسمىي نەشردىكى HMS Core ئەمەس. سىستېما تەڭشىكىدىكى ئەپ باشقۇرۇش ئورنىدىن ئۇنى ئۆچۈرۈپ، ئاندىن بۇ ئەپكە قايتىپ، ئورگان تەرەپ تارقاتقان HMS Core نى قاچىلاڭ.</string>
+    <string name="hms_push_channel">سۈكۈتتىكى</string>
+    <string name="hms_spoof_hints">ئەسكەرتىش</string>
+</resources>

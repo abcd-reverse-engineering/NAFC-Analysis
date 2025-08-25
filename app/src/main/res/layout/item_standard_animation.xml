@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_checkapp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+    <ImageView
+        android:id="@+id/iv_animation_ing"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/iv_bule_san"
+        android:scaleType="fitCenter"/>
+    <ImageView
+        android:id="@+id/iv_animation_scal"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/iv_scan_app_bg"
+        android:scaleType="fitCenter"/>
+</FrameLayout>

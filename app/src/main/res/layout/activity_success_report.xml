@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/rl_title_with_back"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:src="@drawable/iv_comt_success"/>
+        <TextView
+            android:textSize="15sp"
+            android:textColor="#666666"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="提交成功"/>
+        <FrameLayout
+            android:id="@+id/fl_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            style="@style/buttonCrop">
+            <TextView
+                android:textSize="18sp"
+                android:textColor="@drawable/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看报案记录"
+                android:drawablePadding="8dp"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="CS_ERR_for_cannot_conn_service">ཞབས་ཞུ་ཡོ་ཆས་ལ་སྦྲེལ་མཐུད་མ་ཐུབ། རྗེས་སུ་ཡང་བསྐྱར་འབད་རྩོལ་གནང་རོགས།</string>
+    <string name="CS_area_not_support_service">ཁྱེད་རང་གི་སར་ཞབས་ཞུ་འདི་གནས་སྐབས་ཕྱེ་མི་འདུག</string>
+    <string name="CS_back">གོམ་རིམ་སྔ་མ།</string>
+    <string name="CS_bind_devices_excess">ཐོ་ཨང་འདི་ཆེས་མང་ན་སྒྲིག་ཆས་ 5 ལ་སྡོམ་ཆོག %s ཐོ་འཇུག་བྱས་ནས་ཉུང་མཐར་སྒྲིག་ཆས་གཅིག་སྤོ་འབུད་བྱས་ནས། ཡང་བསྐྱར་ཐོ་འཇུག་བྱེད་རོགས།</string>
+    <string name="CS_email_already_verified">བདེ་འཇགས་ཡིག་ཟམ་གྲུང་སྐུལ་བྱས་ཟིན།</string>
+    <string name="CS_install">སྒྲིག་འཇུག</string>
+    <string name="CS_logout_apps">གཤམ་གྱི་ཉེར་སྤྱོད་མིག་སྔའི་ཐོ་ཨང་ལས་ཕྱིར་འཐེན་བྱེད་དེ།</string>
+    <string name="CS_network_connect_error">དྲ་རྒྱ་དང་སྦྲེལ་མ་ཐུབ་པས། དྲ་རྒྱའི་སྒྲིག་འགོད་ལ་ཞིབ་བཤེར་གནང་རོགས།</string>
+    <string name="CS_next">གོམ་རིམ་ཕྱི་མ།</string>
+    <string name="CS_no_network_content">དྲ་རྒྱའི་ཞབས་ཞུ་སྤྱོད་མི་ནུས། དྲ་རྒྱ་བཤེར་རོགས། </string>
+    <string name="CS_overload_message">འཇུག་གྲངས་མང་དྲག ཏོག་ཙམ་གྱིས་ཚོད་ལྟ་བྱེད་རོགས།</string>
+    <string name="CS_retry">ཡང་བསྐྱར།</string>
+    <string name="CS_system_error_tip">མ་ལག་བྲེལ་བ་ཆེ། ཡང་བསྐྱར་ཐོ་འགོད་བྱེད་རོགས།</string>
+    <string name="CS_title_tips">གསལ་འདེབས།</string>
+    <string name="account_cancel">ཕྱིར་འཐེན།</string>
+    <string name="account_logout">ཕྱིར་ཐོན།</string>
+    <string name="account_manager">ཐོ་ཁོངས་སྟངས་འཛིན་བྱ།</string>
+    <string name="cs_cancel">ཕྱིར་འཐེན།</string>
+    <string name="cs_check_honorapk_failure">པར་གཞི་གསར་པར་ཞིབ་བཤེར་བྱེད་མ་ཐུབ།</string>
+    <string name="cs_checking">གསར་སྒྱུར་ལ་ཞིབ་བཤེར་ཚད་ལེན་བྱེད་བཞིན་པ།</string>
+    <string name="cs_confirm">ཆོག</string>
+    <string name="cs_download_honorapk_failure">རུང་ཡོའོ་རྩིས་ཐོའི་སྒྲིག་འཇུག་ཆག་ཐུམ་ཕབ་ལེན་བྱེད་མ་ཐུབ།</string>
+    <string name="cs_download_no_space">བེད་སྤྱོད་ཆོག་པའི་བར་སྟོང་མི་འདང་། ཕབ་ལེན་པར་ལེགས་འགྲུབ་བྱེད་མི་ཐུབ།</string>
+    <string name="cs_download_retry">ཕབ་ལེན་བྱེད་མ་ཐུབ། བསྐྱར་དུ་ཚོད་ལྟ་བྱེད་དམ།</string>
+    <string name="cs_downloading_honor_new">རུང་ཡོའོ་རྩིས་ཐོ་གསར་སྒྱུར་བྱེད་བཞིན་ཡོད།</string>
+    <string name="cs_update_honor_title">རུང་ཡོའོ་རྩིས་ཐོ།</string>
+    <string name="cs_update_message_new">ཞབས་ཞུ་འདི་ལ་གཤམ་གྱི་ཉེར་སྤྱོད་\n\n%1$s ཡི་རིམ་པ་གསར་ཤོས་དེ་ལྡན་དགོས་འདུག</string>
+    <string name="hms_apk_not_installed_hints">ཁྱེད་ཀྱིས་སྒྲིག་ཆས་ལ་པར་གཞི་གསར་ཤོས་ཀྱི་ HMS Core སྒྲིག་འཇུག་བྱས་མེད། %1$sརྒྱུན་ལྡན་ལྟར་འཁོར་སྐྱོད་བྱེད་ཐབས་བྲལ།</string>
+    <string name="hms_bindfaildlg_message">%1$s ཡིས་HMS Coreདག་བེད་སྤྱོད་བྱེད་ཐུབ་ཀྱི་མིན་འདུག ཁ་པར་གྱི་དོ་དམ་པ་འགོ་འཛུགས་བྱེད་པའམ། ཡང་ན། སྒྲིག་བཀོད་སྟེང་བསྐྱོད། %2$s ཆེད་ཆོག་མཆན་ཆ་ཚང་ནུས་ལྡན་བཟོ་ (རང་འགུལ་འགོ་འཛུགས་དང་འགོ་འཛུགས་ཕལ་པ་འཚུད་པ་ཡིན།) བ་དང་། ཡང་བསྐྱར་འབད་རྩོལ་བྱ།</string>
+    <string name="hms_confirm">ཆོག</string>
+    <string name="hms_is_spoof">སྒྲིག་ཆས་འདིར་སྒྲིག་འཇུག་བྱས་པའི་ (%1$s) ནི་ཁྲིམས་མིན་གྱི་ HMS Core པར་གཞི་ཡིན། སྔོན་ལ་རྒྱུད་ཁོངས་ཀྱི་སྒྲིག་བཀོད་ཁྲོད་ཀྱི་ཉེར་སྤྱོད་དོ་དམ་དུ་ཕེབས་ནས་པར་གཞི་འདི་བཤིག་ཕབ་བྱས་ནས། ཉེར་སྤྱོད་འདི་ཕྱིར་ལོག་ནས་ཁྲིམས་མཐུན་གྱི་ HMS Core པར་གཞི་སྒྲིག་འཇུག་བྱེད་རོགས།</string>
+    <string name="hms_push_channel">ཐོག་མ།</string>
+    <string name="hms_spoof_hints">དྲན་སྐུལ།</string>
+    <string name="system_default_channel">རྒྱུད་ཁོངས་ཀྱི་སོར་བཞག་གི་བརྒྱུད་ལམ།</string>
+</resources>

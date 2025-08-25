@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/page_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/rl_title_with_back"/>
+    <TextView
+        android:textSize="20sp"
+        android:textColor="#3e3e3e"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="注销后账号无法恢复，确认注销 ？"/>
+    <TextView
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:text="注销账号后，使用此账号在国家反诈中心所有服务中产生的数据将全部清除，且无法找回，确认要注销吗 ？"/>
+    <Button
+        android:textSize="16sp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:id="@+id/btn_logout"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="20dp"
+        android:text="确认注销"
+        style="@style/buttonCrop"/>
+    <Button
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:id="@+id/btn_cancel"
+        android:background="@drawable/button_bg_gray_light_25"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="取消注销"/>
+</LinearLayout>

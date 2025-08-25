@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="grat_arc_color">
+        <item>#1a00b0fa</item>
+        <item>#66b4fd</item>
+        <item>#00b5fe</item>
+    </array>
+</resources>

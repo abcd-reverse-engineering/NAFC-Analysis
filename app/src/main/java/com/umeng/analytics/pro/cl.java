@@ -1,0 +1,21 @@
+package com.umeng.analytics.pro;
+
+/* compiled from: TList.java */
+/* loaded from: classes2.dex */
+public final class cl {
+
+    /* renamed from: a, reason: collision with root package name */
+    public final byte f10266a;
+
+    /* renamed from: b, reason: collision with root package name */
+    public final int f10267b;
+
+    public cl() {
+        this((byte) 0, 0);
+    }
+
+    public cl(byte b2, int i2) {
+        this.f10266a = b2;
+        this.f10267b = i2;
+    }
+}

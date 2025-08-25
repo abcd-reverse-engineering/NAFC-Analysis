@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/dp_2">
+    <ImageView
+        android:id="@+id/picture_select"
+        android:layout_width="@dimen/dp_75"
+        android:layout_height="@dimen/dp_75"
+        android:src="@drawable/white_corner"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:id="@+id/picture_foot"
+        android:layout_width="@dimen/dp_75"
+        android:layout_height="@dimen/dp_75"
+        android:src="@mipmap/ic_add_picture"/>
+    <ImageView
+        android:id="@+id/iv_clear"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/iv_pic_del"
+        android:layout_alignTop="@+id/picture_select"
+        android:layout_alignRight="@+id/picture_select"/>
+    <TextView
+        android:textSize="@dimen/sp_12"
+        android:textColor="@color/colorGray"
+        android:gravity="center"
+        android:id="@+id/tv_upload_state"
+        android:background="@color/colorWhite88"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="等待上传"
+        android:layout_below="@+id/picture_select"/>
+</RelativeLayout>

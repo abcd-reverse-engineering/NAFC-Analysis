@@ -1,8 +1,8 @@
-# NAFC-Analysis
+# N`ational` A`nti`-F`raud` C`enter`——Analysis
 
 使用 JADX 分析国家反诈中心得到的源代码。
 
-部分源码目录经过了混淆。
+部分源码目录经过了混淆而无法正确呈现。
 
 ## 可能有用的目录
 

@@ -10,7 +10,15 @@
 
 ## 可能有用的链接
 
-1. **libmd**：https://gitlab.freedesktop.org/libbsd/libmd
-2. **okhttp**：https://github.com/square/okhttp
-3. **gson**：https://github.com/google/gson
-4. **zxing**：https://github.com/zxing/zxing
+1. https://github.com/XJP-GIT/AntiZhaPian
+2. https://github.com/wangdaye078/AntiZhaPian
+
+## third-party
+
+|第三方库名称|描述|源代码仓库|相关文件|
+|--|--|--|--|
+|libmd|提供消息摘要函数的库，通常源自 BSD 系统|[https://github.com/guillemj/libmd](https://github.com/guillemj/libmd) [https://gitlab.freedesktop.org/libbsd/libmd](https://gitlab.freedesktop.org/libbsd/libmd)| `app/src/main/lib/*/libmd.so`
+|okhttp|针对 JVM、Android 和 GraalVM 的 HTTP 客户端|[https://github.com/square/okhttp](https://github.com/square/okhttp)|`app/src/main/java/okhttp3/*` `app/src/main/okhttp3/internal/publicsuffix/*`|
+|gson|一个 Java 序列化/反序列化库，用于将 Java 对象转换为 JSON 并返回|[https://github.com/google/gson](https://github.com/google/gson)|`app/src/main/java/network/gson/*`|
+|zxing|用于 Java、Android 的条码码扫描库|[https://github.com/zxing/zxing](https://github.com/zxing/zxing)|`app/src/main/java/zxing/*`|
+|okio|适用于 Android、Java 和 Kotlin Multiplatform 的现代 I/O 库。|[https://github.com/square/okio](https://github.com/square/okio)|`app/src/main/java/okio/*`|

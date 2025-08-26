@@ -13,3 +13,4 @@
 1. **libmd**：https://gitlab.freedesktop.org/libbsd/libmd
 2. **okhttp**：https://github.com/square/okhttp
 3. **gson**：https://github.com/google/gson
+4. **zxing**：https://github.com/zxing/zxing

@@ -7,3 +7,7 @@
 ## 可能有用的目录
 
 - [/app/src/main/okhttp3/internal/publicsuffix/publicsuffixes](https://github.com/Anonymous220623/NAFC-Analysis/blob/main/app/src/main/okhttp3/internal/publicsuffix/publicsuffixes)：APP 监控网络访问的域名列表，从 `app/src/main/okhttp3/internal/publicsuffix/publicsuffixes.gz` 中解压。
+
+## 可能有用的链接
+
+1. **libmd**：https://gitlab.freedesktop.org/libbsd/libmd

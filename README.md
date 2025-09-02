@@ -4,6 +4,8 @@
 
 部分源码目录经过了混淆而无法正确呈现。
 
+欢迎各位爱好者进行研究和发布讨论！
+
 ## 可能有用的目录
 
 - [/app/src/main/okhttp3/internal/publicsuffix/publicsuffixes](https://github.com/Anonymous220623/NAFC-Analysis/blob/main/app/src/main/okhttp3/internal/publicsuffix/publicsuffixes)：APP 监控网络访问的域名列表，从 `app/src/main/okhttp3/internal/publicsuffix/publicsuffixes.gz` 中解压。
